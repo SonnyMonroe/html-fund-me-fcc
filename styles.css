@@ -21,12 +21,10 @@ body {
     border-width: 15px;
     grid-gap: 5px;
 
-
     grid-template-areas:
-        "header" 
-        "content" 
+        "header"
+        "content"
         "footer";
-        
 }
 
 header {
@@ -58,7 +56,6 @@ header {
     align-self: center;
     padding: auto;
     margin: auto;
-    
 }
 
 #connectButton {
@@ -72,13 +69,10 @@ header {
     border-radius: 15px;
     margin: 15px;
 
-
     background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
-    letter-spacing: 4px;    
+    letter-spacing: 4px;
     font-weight: bolder;
-
-
 }
 
 #balanceButton {
@@ -93,13 +87,10 @@ header {
     margin: 15px;
     box-align: center;
 
-
-
     background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
     font-weight: bolder;
-
 }
 
 #withdrawButton {
@@ -113,12 +104,10 @@ header {
     border-radius: 15px;
     margin: 15px;
 
-
     background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
     font-weight: bolder;
-
 }
 
 #fundButton {
@@ -132,13 +121,10 @@ header {
     border-radius: 15px;
     margin: 15px;
 
-
     background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
     font-weight: bolder;
-
-
 }
 
 #ethAmount {
@@ -151,34 +137,26 @@ header {
     border-radius: 15px;
     margin: 15px;
 
-
     background-color: antiquewhite;
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
-    color:rgb(62, 36, 83);
+    color: rgb(62, 36, 83);
     font-weight: bolder;
-
-
 }
 
 label {
- color: antiquewhite;
- font-style: italic, bolder;
- font-weight: bolder;
- letter-spacing: 4px; 
-
-
-}
-
-
-#footer {
-
     color: antiquewhite;
     font-style: italic, bolder;
     font-weight: bolder;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
+}
+
+#footer {
+    color: antiquewhite;
+    font-style: italic, bolder;
+    font-weight: bolder;
+    letter-spacing: 4px;
 
     padding-top: 25px;
     text-align: center;
-
 }
