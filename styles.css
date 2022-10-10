@@ -1,0 +1,162 @@
+body {
+    margin: 24px;
+    background: black;
+
+    font-family: "Henny Penny", cursive;
+    color: antiquewhite;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: 200px, 250px;
+    grid-auto-rows: minmax(75px, auto);
+}
+
+.grid-items {
+    display: grid; /* This will show what you named your items in grid when testing on web */
+
+    border-style: groove;
+    border-width: 15px;
+    grid-gap: 5px;
+
+
+    grid-template-areas:
+        "header" 
+        "content" 
+        "content" 
+        "content" 
+        "footer";
+        
+}
+
+header {
+    word-spacing: 5px;
+    color: antiquewhite;
+    background-color: rgb(62, 36, 83);
+
+    border: 25px;
+    margin: 5%;
+    border: groove;
+    border-width: 15px;
+    border-radius: 15px;
+
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#content {
+    background-color: rgb(62, 36, 83);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    border-color: antiquewhite;
+    border: 15px;
+    border-style: groove;
+    border-color: antiquewhite;
+
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    padding: auto;
+
+
+}
+
+#connectButton {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic, bold;
+    padding: 15px;
+    border-style: groove;
+    border-color: antiquewhite;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: 15px;
+
+
+    background-color: cadetblue;
+    font-family: "Henny Penny", cursive;
+    letter-spacing: 4px;
+}
+
+#balanceButton {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic, bold;
+    padding: 15px;
+    border-style: groove;
+    border-color: antiquewhite;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: 15px;
+    box-align: center;
+
+
+
+    background-color: cadetblue;
+    font-family: "Henny Penny", cursive;
+    letter-spacing: 4px;
+}
+
+#withdrawButton {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic, bold;
+    padding: 15px;
+    border-style: groove;
+    border-color: antiquewhite;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: 15px;
+
+
+    background-color: cadetblue;
+    font-family: "Henny Penny", cursive;
+    letter-spacing: 4px;
+}
+
+#fundButton {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic, bold;
+    padding: 15px;
+    border-style: groove;
+    border-color: antiquewhite;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: 15px;
+
+
+    background-color: cadetblue;
+    font-family: "Henny Penny", cursive;
+    letter-spacing: 4px;
+}
+
+#ethAmount {
+    text-align: center;
+    font-style: italic, bold;
+    padding: 15px;
+    border-style: groove;
+    border-color: antiquewhite;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: 15px;
+
+
+    background-color: antiquewhite;
+    font-family: "Henny Penny", cursive;
+    letter-spacing: 4px;
+    color:rgb(62, 36, 83);
+    font-weight: bolder;
+
+
+}
+
+label {
+ color: antiquewhite;
+ font-style: italic, bolder;
+ 
+
+
+}
