@@ -1,9 +1,11 @@
 body {
     margin: 24px;
-    background: black;
+    background-color: rgba(40, 14, 61, 0.863);
 
     font-family: "Henny Penny", cursive;
     color: antiquewhite;
+    height: 100vh;
+    margin: 50px;
 }
 
 .container {
@@ -42,7 +44,7 @@ header {
     border-radius: 15px;
 
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 #content {
@@ -59,8 +61,8 @@ header {
     text-align: center;
     align-self: center;
     padding: auto;
-
-
+    margin: auto;
+    
 }
 
 #connectButton {
@@ -75,9 +77,12 @@ header {
     margin: 15px;
 
 
-    background-color: cadetblue;
+    background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
-    letter-spacing: 4px;
+    letter-spacing: 4px;    
+    font-weight: bolder;
+
+
 }
 
 #balanceButton {
@@ -94,9 +99,11 @@ header {
 
 
 
-    background-color: cadetblue;
+    background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
+    font-weight: bolder;
+
 }
 
 #withdrawButton {
@@ -111,9 +118,11 @@ header {
     margin: 15px;
 
 
-    background-color: cadetblue;
+    background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
+    font-weight: bolder;
+
 }
 
 #fundButton {
@@ -128,9 +137,12 @@ header {
     margin: 15px;
 
 
-    background-color: cadetblue;
+    background-color: rgb(62, 36, 83);
     font-family: "Henny Penny", cursive;
     letter-spacing: 4px;
+    font-weight: bolder;
+
+
 }
 
 #ethAmount {
@@ -156,7 +168,15 @@ header {
 label {
  color: antiquewhite;
  font-style: italic, bolder;
- 
+ font-weight: bolder;
+ letter-spacing: 4px; 
 
 
+}
+
+footer {
+     
+   text:"Sonny Monroe"
+   color: antiquewhite;
+    
 }
