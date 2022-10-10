@@ -1,10 +1,9 @@
 body {
-    margin: 24px;
     background-color: rgba(40, 14, 61, 0.863);
 
     font-family: "Henny Penny", cursive;
     color: antiquewhite;
-    height: 100vh;
+    height: 75vh;
     margin: 50px;
 }
 
@@ -25,8 +24,6 @@ body {
 
     grid-template-areas:
         "header" 
-        "content" 
-        "content" 
         "content" 
         "footer";
         
@@ -55,7 +52,6 @@ header {
     border-color: antiquewhite;
     border: 15px;
     border-style: groove;
-    border-color: antiquewhite;
 
     align-content: center;
     text-align: center;
@@ -174,9 +170,15 @@ label {
 
 }
 
-footer {
-     
-   text:"Sonny Monroe"
-   color: antiquewhite;
-    
+
+#footer {
+
+    color: antiquewhite;
+    font-style: italic, bolder;
+    font-weight: bolder;
+    letter-spacing: 4px; 
+
+    padding-top: 25px;
+    text-align: center;
+
 }
